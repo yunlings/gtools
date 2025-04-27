@@ -1,4 +1,4 @@
-module gtools
+module github.com/yunlings/gtools
 
 go 1.24.2
 
