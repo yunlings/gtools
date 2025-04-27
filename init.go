@@ -6,6 +6,11 @@ import (
 	"github.com/google/uuid"
 )
 
-func GenerateUUIDWithoutHyphen() string {
+var AAA = new(Aaa)
+
+type Aaa struct {
+}
+
+func (aaa *Aaa) GenerateUUIDWithoutHyphen() string {
 	return strings.ReplaceAll(uuid.New().String(), "-", "")
 }
