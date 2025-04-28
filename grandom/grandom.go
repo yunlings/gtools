@@ -31,7 +31,7 @@ func RandomWait(min, max int) {
 // 该函数适用于需要生成唯一标识符或随机数字序列的场景。
 func GenerateRandomNumber(length int) string {
 	// 定义可用的数字字符集。
-	digits := "0123456789"
+	digits := "123456789"
 
 	// 初始化结果切片，用于存储生成的随机数字。
 	result := make([]byte, length)
